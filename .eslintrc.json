@@ -1,0 +1,8 @@
+{
+  "env": { "browser": true, "node": true, "es6": true },
+  "extends": ["es2015", "stage-0","eslint:recommended", "next","next/babel","@babel/preset-react","next/core-web-vitals", "react","@babel/preset-env"],
+  "rules": {
+    "import/no-anonymous-default-export": 0
+  }
+}
+

@@ -1,0 +1,45 @@
+
+
+
+body {
+  background-image: url(../styles/wood-1866642_1920.jpg);
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.video { 
+  border-bottom-right-radius: 25%;
+
+  width: 100%;
+  height: 100%;
+  
+overflow: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute; 
+  z-index: -1;
+  /*width: 5000px;
+  top: 85%;
+  left: 150%;
+  height: 150%;
+/*object-fit: cover;*/
+ /* transform: translate(-50%, -50%);
+  */
+}
+
